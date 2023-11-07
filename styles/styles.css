@@ -1,0 +1,43 @@
+:root{
+    --background-color: rgb(182, 182, 182);
+}
+
+html{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    background-color: var(--background-color);
+    margin: 0px;
+}
+
+header{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+footer{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+}
+
+div{
+    background-color: pink;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+:valid{
+    border-color: greenyellow;
+}
+
+:invalid{
+    border-color: red;
+}
+
